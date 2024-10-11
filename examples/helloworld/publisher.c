@@ -48,8 +48,8 @@ int main (int argc, char ** argv)
   }
 
   /* Create a message to write. */
-  msg.userID = 1;
-  msg.message = "Hello World";
+  msg.userID = 123;
+  msg.message = "Hello World123";
 
   printf ("=== [Publisher]  Writing : ");
   printf ("Message (%"PRId32", %s)\n", msg.userID, msg.message);
