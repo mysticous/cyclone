@@ -48,7 +48,7 @@ int main (int argc, char ** argv)
   }
 
   /* Create a message to write. */
-  msg.userID = 1;
+  msg.userID = 123;
   msg.message = "Hello World";
 
   printf ("=== [Publisher]  Writing : ");
